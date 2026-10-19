@@ -1,0 +1,37 @@
+# Python / IDE
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Secrets and credentials
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p8
+*service-account*.json
+
+# Data, ML artifacts and personal academic documents
+*.pkl
+*.pickle
+*.joblib
+*.csv
+*.parquet
+*.db
+*.sqlite
+*.docx
+*.pdf
+model_artifacts/
+data/
+private/
+
+# System clutter
+.DS_Store
+Thumbs.db
